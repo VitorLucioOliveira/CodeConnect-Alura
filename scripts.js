@@ -103,7 +103,7 @@ const botaoPubblicar = document.querySelector(".botao-publicar");
 async function publicarProjeto(nomeProjeto, descricaoProjeto, tagsProjeto) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            const deuCerto = Math.random() > 0.5;
+            const deuCerto = true;
 
             if (deuCerto) {
                 resolve("Projeto publicado")
